@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# CreateFurusatoTaxPayments
 class CreateFurusatoTaxPayments < ActiveRecord::Migration[7.0]
   def change
     create_table :furusato_tax_payments do |t|
